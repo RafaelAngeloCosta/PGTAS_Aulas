@@ -10,7 +10,7 @@ describe("Login da Lojinha", () => {
        await navegador.get("http://165.227.93.41/lojinha-web/v2/");
 
 
-        //Preencher o campo usuário
+        //Preencher o campo usuário   --- teste
         await navegador.findElement(webDriver.By.id("usuario")).sendKeys("admin");
 
         //Preencher a Senha
